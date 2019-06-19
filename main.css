@@ -1,5 +1,7 @@
 body {
     background-color: #F8F8F8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #BBBBBB;
 }
 
 body > div {
@@ -28,6 +30,7 @@ header {
             color: #BBBBBB;
             text-decoration: none;
             margin-left: 30px;
+            margin-top: 6px;
         }
 
 body > div > div {
@@ -37,11 +40,22 @@ body > div > div {
 }
     body > div > div > div {
         display: inline-block;
-        width: 60%;
+        width: 40%;
         float: left;
+        margin-top: 33px;
+        margin-left: 20px;
     }
+        h1 {
+            margin: 0;
+            font-size: 80px;
+        }
+        p {
+            margin: 0;
+            font-size: 30px;
+        }
     body > div > div > img {
         display: inline-block;
         width: 40%;
-        float: left;
+        float: right;
+        margin-right: 3%;
     }
